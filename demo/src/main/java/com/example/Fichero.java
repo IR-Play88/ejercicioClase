@@ -71,7 +71,7 @@ public class Fichero {
         File fichero = crear(null, null, null);
         File ficheroCopiado = copiar(carpeta, fichero, null);
         borrar(null);
-        renombrar(null);
+        //renombrar(null);
         listar(null);
     }
 
