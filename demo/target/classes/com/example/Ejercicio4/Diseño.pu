@@ -1,0 +1,27 @@
+@startuml
+
+Interface Procesador{
+    + procesar(File f):Maps 
+    + getNumLinea():int  
+    + getNumPalabra():int 
+    + getPalabras():Map<String,Integer>
+    + getLetra():Maps<String,Integer>
+    + getLetras():Maps<Char.Integer>
+}
+
+Interface Procesador2{
+    + procesar(File f):Informe
+}
+
+class Informe{
+    - numLineas: int 
+    - numPalabras: int 
+    - numComas
+    - numPuntos
+    - 
+}
+
+.class Palabra{
+    - numeroApariciones: int
+}
+@enduml
